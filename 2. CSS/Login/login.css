@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    background-color: black;
+}
+.body{
+    background-color: #fff;
+    width: 100%;
+    height: 100vh;
+}
+.coloredimage{
+    width: 50%;
+    height: 100vh;
+    background-image: linear-gradient(#ccf, #f2d2bd);
+    float: left;
+}
+.loginbox{
+    float: left;
+    width: 50%;
+    height: 100vh;
+    background-color: #ccf;
+}
+.bold{
+    font-weight: bold;
+}
+.normal{
+    font-family: sans-serif;
+    font-size: medium;
+}
+
+h1{
+    color: red;
+}
+form{
+    padding: 40px;
+    font-family: sans-serif;
+    line-height: 40px;
+}
+
+input{
+    height: 40px;
+    width: 99%;
+}
+button{
+    color: white;
+    background-color: red;
+    border: 1px solid ridge;
+    height: 40px;
+    width: 100%;
+    font-weight: bold;
+    font-size: medium;
+}
+input[type="checkbox"]{
+    margin: 20px 0px 0px 0px;
+    height: 13px;
+    width: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      margin: 0;
+    }
+    .body{
+        background-color: #fff;
+        width: 100%;
+        height: 100vh;
+    }
+    .coloredimage{
+        width: 0;
+        height: 0;
+        background-image: none;
+    }
+    .loginbox{
+        width: 100%;
+        height: 100vh;
+        background-color: #fff;
+    }
+    .bold{
+        font-weight: bold;
+    }
+    h1{
+        color: red;
+    }
+    form{
+        padding: 40px;
+        font-family: sans-serif;
+        line-height: 40px;
+    }
+    input{
+        height: 40px;
+        width: 98%;
+    }
+    button{
+        color: white;
+        background-color: red;
+        border: 1px solid red;
+        height: 40px;
+        width: 100%;
+        font-weight: bold;
+        font-size: medium;
+    }
+    input[type="checkbox"]{
+        margin: 15px 0px 0px 0px;
+        height: 13px;
+        width: 20px;
+    }
+  }
