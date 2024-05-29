@@ -14,10 +14,11 @@ body{
     float: left;
 }
 .loginbox{
+    margin-top: 100px;
     float: left;
     width: 50%;
     height: 100vh;
-    background-color: #ccf;
+    background-color: #fff;
 }
 .bold{
     font-weight: bold;
